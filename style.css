@@ -1,0 +1,201 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6; 
+    color: #333; 
+}
+
+/* Header */
+header {
+    background-color: #1a2a40; 
+    padding: 10px 0;
+    color: white;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400; 
+    padding: 5px 0;
+    transition: color 0.3s ease; 
+}
+
+header nav ul li a:hover {
+    color: #a0c4ff; 
+}
+
+/* Títulos (h1, h2, h3) */
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: 700; 
+    color: #333; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Main Content Sections */
+main section {
+    padding: 40px 20px;
+    margin-bottom: 30px;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    background-color: #e0e7ee; 
+}
+
+.hero-section img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Feature Section (Historia) */
+.features-section {
+    background-color: #f9f9f9;
+}
+
+.features-section .feature-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.features-section .feature-item {
+    text-align: center;
+    max-width: 300px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.features-section .feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us-section {
+    background-color: #e0e7ee; 
+}
+
+.about-us-section .articles-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 30px;
+}
+
+.about-us-section article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.about-us-section article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.about-us-section article p {
+    line-height: 1.6;
+}
+
+/* Call to Action Section */
+.call-to-action-section {
+    background-color: #3f51b5; 
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.call-to-action-section h2 {
+    color: white; 
+}
+
+.call-to-action-section p {
+    margin-bottom: 25px;
+    font-size: 1.1em;
+}
+
+.call-to-action-section img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.call-to-action-section button {
+    background-color: #8c7ae6; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.call-to-action-section button:hover {
+    background-color: #a0c4ff; 
+}
+
+/* Footer */
+footer {
+    background-color: #1a2a40; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-nav ul li {
+    margin: 0 10px;
+}
+
+footer .footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer .footer-nav ul li a:hover {
+    color: #a0c4ff;
+}
+
